@@ -1,0 +1,10 @@
+{% extends 'main/loaut.html' %}
+
+{% block title %}{{ artiles.title }}{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ artiles.title }}</h1>
+        <p>{{ artiles.date }}</p>
+        <p>{{ artiles.full_text }}</p>
+{% endblock %}
